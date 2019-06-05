@@ -18,9 +18,12 @@ public class App
         car.mileage = 9.5;
         car.running = true;
 
-        Engine engine = new Engine();
-                engine.capacity = 100;
-                engine.manufacturer = "Pitesti";
+
+        Engine engine1 = new Engine();
+                engine1.capacity = 100;
+                engine1.manufacturer = "Motor Moscova";
+
+
 
         Car car2 = new Car();
         car2.name = "Lada";
@@ -28,6 +31,7 @@ public class App
         car2.doorCount = 4;
         car2.mileage = 12;
         car2.running = false;
+        car2.engine = engine1;
 
         Car car3 = car;
 
@@ -43,7 +47,14 @@ public class App
 
         System.out.println(car.maxSpeed);
         System.out.println(car.engine);
-        System.out.println(engine.manufacturer);
+        System.out.println(car2.name);
+        System.out.println("Gloriuous car engine produced by:" +" "+ car2.engine.manufacturer);
+       // System.out.println(engine1.manufacturer);
+      //  System.out.println(car2.name +" "+ car2.engine.manufacturer);
+        //helooo
+
+
+
 
     }
 
