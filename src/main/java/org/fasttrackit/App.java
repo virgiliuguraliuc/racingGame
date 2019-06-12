@@ -15,7 +15,8 @@ public class App
         car.name = "Dacia";
         car.color = "black";
         car.doorCount = 4;
-        car.mileage = 9.5;
+        car.mileage = 10;
+        car.fuelLevel = 50;
         car.running = true;
 
 
@@ -30,6 +31,7 @@ public class App
         car2.color = "white";
         car2.doorCount = 4;
         car2.mileage = 12;
+        car2.fuelLevel = 60;
         car2.running = false;
         car2.engine = engine1;
 
@@ -53,8 +55,9 @@ public class App
       //  System.out.println(car2.name +" "+ car2.engine.manufacturer);
         //helooo
 
-
-
+    double distance = car.accelerate(60, 0.5);
+        distance = car.accelerate(60, 0.5);
+        System.out.println(" Distance in App.main " + distance);
 
     }
 
