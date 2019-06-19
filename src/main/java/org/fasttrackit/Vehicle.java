@@ -3,17 +3,21 @@ package org.fasttrackit;
 import java.time.LocalDate;
 
 public class Vehicle {
-    String name;
-    double mileage;
-    String color;
-    double maxSpeed;
-    boolean running;
-    double fuelLevel;
-    double traveledDistance;
-    LocalDate createdDate;
+
+    //variabile de instanta
+    private String name;
+    private double mileage;
+    private String color;
+    private double maxSpeed;
+    private boolean running;
+    private double fuelLevel;
+    private double traveledDistance;
+    private LocalDate createdDate;
 
 
+//metode
 
+//ctrl+alt+o optimise imports
     // daca public void nu trebuie sa dai return, pur si simplu face o chestie si nu returneaza ceva
 
     public double accelerate (double speed, double durationInHours) {
@@ -48,6 +52,74 @@ public class Vehicle {
 
 
         return distance;
+
+
     }
 
+    //getteri
+    public String getName() {
+        return name;
+    }
+
+    public double getMileage() {
+        return mileage;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public double getMaxSpeed() {
+        return maxSpeed;
+    }
+
+    public boolean isRunning() {
+        return running;
+    }
+
+    public double getFuelLevel() {
+        return fuelLevel;
+    }
+
+    public double getTraveledDistance() {
+        return traveledDistance;
+    }
+
+    public LocalDate getCreatedDate() {
+        return createdDate;
+    }
+//setteri
+
+    public void setName(String name) {
+        this.name = name.trim();
+        //.trim() la nume taie spatiile de la inceput si la sfarsit
+    }
+
+    public void setMileage(double mileage) {
+        this.mileage = mileage;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public void setMaxSpeed(double maxSpeed) {
+        this.maxSpeed = maxSpeed;
+    }
+
+    public void setRunning(boolean running) {
+        this.running = running;
+    }
+
+    public void setFuelLevel(double fuelLevel) {
+        this.fuelLevel = fuelLevel;
+    }
+
+    public void setTraveledDistance(double traveledDistance) {
+        this.traveledDistance = traveledDistance;
+    }
+
+    public void setCreatedDate(LocalDate createdDate) {
+        this.createdDate = createdDate;
+    }
 }

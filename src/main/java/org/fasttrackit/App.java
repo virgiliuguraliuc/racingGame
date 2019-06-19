@@ -20,40 +20,40 @@ public class App
        //Car car = new Car(new engine())  - dar asa capacity si manufacturer = 0 si null ca default
 
         Car car = new Car(engine);
-        car.name = "Dacia";
-        car.color = "black";
+        car.setName("Dacia");
+        car.setColor("black");
         car.doorCount = 4;
-        car.mileage = 10;
-        car.fuelLevel = 50;
-        car.running = true;
+        car.setMileage(10);
+        car.setFuelLevel(50);
+        car.setRunning(true);
 
 
 
 
         Car car2 = new Car(new Engine());
-        car2.name = "Lada";
-        car2.color = "white";
+        car2.setName("Lada");
+        car2.setColor("white");
         car2.doorCount = 4;
-        car2.mileage = 12;
-        car2.fuelLevel = 60;
-        car2.running = false;
+        car2.setMileage(12);
+        car2.setFuelLevel(60);
+        car2.setRunning(false);
 
 
         Car car3 = car;
 
-        System.out.println(car.name);
-        System.out.println(car3.name);
+        System.out.println(car.getName());
+        System.out.println(car3.getName());
 
         System.out.println("Changing values...");
 
-        car.name = "Dacia Logan";
+        car.setName("Dacia Locan");
 
-        System.out.println(car.name);
-        System.out.println(car3.name);
+        System.out.println(car.getName());
+        System.out.println(car3.getName());
 
-        System.out.println(car.maxSpeed);
+        System.out.println(car.getMaxSpeed());
         System.out.println(car.engine);
-        System.out.println(car2.name);
+        System.out.println(car2.getName());
         System.out.println("Gloriuous car engine produced by:" +" "+ car2.engine.manufacturer);
        // System.out.println(engine1.manufacturer);
       //  System.out.println(car2.name +" "+ car2.engine.manufacturer);
