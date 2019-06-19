@@ -4,7 +4,22 @@ import java.time.LocalDate;
 
 public class Vehicle {
 
+   //variabila de clasa
+   private static int totalCount;
+//   static int count = 0;
+//    Vehicle () {
+//     totalCount++;
+//     count = count +1;
+
+    //asa se numara cand se creeaza cate o clasa noua
+    public Vehicle() {
+        totalCount++;
+    }
+
+
+
     //variabile de instanta
+
     private String name;
     private double mileage;
     private String color;
@@ -87,7 +102,13 @@ public class Vehicle {
 
     public LocalDate getCreatedDate() {
         return createdDate;
+
+
     }
+    public static int getTotalCount() {
+        return totalCount;
+    }
+
 //setteri
 
     public void setName(String name) {
@@ -122,4 +143,10 @@ public class Vehicle {
     public void setCreatedDate(LocalDate createdDate) {
         this.createdDate = createdDate;
     }
+
+   private static void setTotalCount(int totalCount) {
+        Vehicle.totalCount = totalCount;
+    }
 }
+
+

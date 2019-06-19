@@ -63,6 +63,19 @@ public class App
         distance = car.accelerate(60, 0.5);
         System.out.println(" Distance in App.main " + distance);
 
+        //demo for class variables
+//        car.totalCount = 1;
+//        System.out.println("total count from car " + car.totalCount);
+//        car2.totalCount =2;
+//        System.out.println("total count from car after setting car2 " + car.totalCount);
+//        System.out.println("total count from car2 " + car2.totalCount);
+//        System.out.println("Total count from Vehicle class: " + Vehicle.totalCount);
+////variabile statice gen totalCount ar trebui schimbate doar de pe clasa ca mai sus la Vehicle.totalCount ^^
+
+
+
+        System.out.println( " **total car numbers: " + Vehicle.getTotalCount());
+
     }
 
 
