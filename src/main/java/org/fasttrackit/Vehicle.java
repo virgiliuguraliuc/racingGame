@@ -35,6 +35,9 @@ public class Vehicle {
 //ctrl+alt+o optimise imports
     // daca public void nu trebuie sa dai return, pur si simplu face o chestie si nu returneaza ceva
 
+
+
+
     public double accelerate (double speed, double durationInHours) {
         // concatenare a mesajelor
         System.out.println(name + " is accelering with " + speed + " km/h for " + durationInHours + "h." );
@@ -70,6 +73,12 @@ public class Vehicle {
 
 
     }
+//overloading metoda accelerate prin faptul ca putem sa punem un singur parametru
+    public double accelerate (double speed){
+       return accelerate(speed, 1);
+    }
+
+
 
     //getteri
     public String getName() {
@@ -143,6 +152,11 @@ public class Vehicle {
     public void setCreatedDate(LocalDate createdDate) {
         this.createdDate = createdDate;
     }
+
+
+
+
+
 
    private static void setTotalCount(int totalCount) {
         Vehicle.totalCount = totalCount;

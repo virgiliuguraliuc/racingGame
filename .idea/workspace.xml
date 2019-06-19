@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5937ef31-bf2f-4114-9b63-c8b94f7f3ace" name="Default Changelist" comment="studied encapsulation">
+    <list default="true" id="5937ef31-bf2f-4114-9b63-c8b94f7f3ace" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/AutoVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/AutoVehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/fasttrackit/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/fasttrackit/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/fasttrackit/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/fasttrackit/Car.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
+            <state relative-caret-position="193">
+              <caret line="81" column="26" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -61,45 +60,56 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/AutoVehicle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="240">
+              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
               <folding>
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Vehicle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="104">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
+                <element signature="method#accelerate#0;class#Vehicle#0" />
+                <element signature="e#1930#1931#0" expanded="true" />
+                <element signature="e#1980#1981#0" expanded="true" />
+                <element signature="e#1917#1918#0" expanded="true" />
                 <element signature="e#1944#1945#0" expanded="true" />
+                <element signature="e#1978#1979#0" expanded="true" />
                 <element signature="e#2008#2009#0" expanded="true" />
+                <element signature="e#2040#2041#0" expanded="true" />
                 <element signature="e#2068#2069#0" expanded="true" />
+                <element signature="e#2103#2104#0" expanded="true" />
                 <element signature="e#2134#2135#0" expanded="true" />
+                <element signature="e#2168#2169#0" expanded="true" />
                 <element signature="e#2198#2199#0" expanded="true" />
+                <element signature="e#2234#2235#0" expanded="true" />
                 <element signature="e#2266#2267#0" expanded="true" />
+                <element signature="e#2309#2310#0" expanded="true" />
                 <element signature="e#2348#2349#0" expanded="true" />
-                <element signature="e#2440#2441#0" expanded="true" />
-                <element signature="e#2481#2482#0" expanded="true" />
+                <element signature="e#2702#2703#0" expanded="true" />
                 <element signature="e#2740#2741#0" expanded="true" />
+                <element signature="e#2782#2783#0" expanded="true" />
                 <element signature="e#2816#2817#0" expanded="true" />
+                <element signature="e#2864#2865#0" expanded="true" />
                 <element signature="e#2904#2905#0" expanded="true" />
+                <element signature="e#2951#2952#0" expanded="true" />
                 <element signature="e#2989#2990#0" expanded="true" />
+                <element signature="e#3039#3040#0" expanded="true" />
                 <element signature="e#3081#3082#0" expanded="true" />
+                <element signature="e#3145#3146#0" expanded="true" />
                 <element signature="e#3201#3202#0" expanded="true" />
+                <element signature="e#3258#3259#0" expanded="true" />
                 <element signature="e#3304#3305#0" expanded="true" />
-                <element signature="e#3316#3317#0" expanded="true" />
-                <element signature="e#3363#3364#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,10 +170,10 @@
         <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/Sportcar.java" />
         <option value="$PROJECT_DIR$/.gitingnore" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/AutoVehicle.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/Car.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/Vehicle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/AutoVehicle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java" />
       </list>
     </option>
   </component>
@@ -187,7 +197,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="106" />
-    <option name="y" value="213" />
+    <option name="y" value="132" />
     <option name="width" value="1185" />
     <option name="height" value="636" />
   </component>
@@ -198,8 +208,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,6 +254,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -313,7 +323,8 @@
       <workItem from="1560353123630" duration="9790000" />
       <workItem from="1560365719247" duration="1578000" />
       <workItem from="1560954109964" duration="198000" />
-      <workItem from="1560958194963" duration="8031000" />
+      <workItem from="1560958194963" duration="8291000" />
+      <workItem from="1560967092291" duration="1234000" />
     </task>
     <task id="LOCAL-00001" summary="learned classes, variables">
       <created>1559758631617</created>
@@ -350,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560963706007</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="studied static variables">
+      <created>1560966595611</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560966595611</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -362,13 +380,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29179000" />
+    <option name="totallyTimeSpent" value="30673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="25" width="1325" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27052385" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.275215" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -377,7 +395,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4972635" visible="true" weight="0.30781758" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49648163" visible="true" weight="0.30781758" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -386,7 +404,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49960908" weight="0.19055374" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5027365" side_tool="true" visible="true" weight="0.30781758" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5035184" side_tool="true" visible="true" weight="0.30781758" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49960908" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -409,7 +427,20 @@
     <MESSAGE value="added accelerate method for vehicles" />
     <MESSAGE value="studied constructors" />
     <MESSAGE value="studied encapsulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="studied encapsulation" />
+    <MESSAGE value="studied static variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="studied static variables" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Vehicle.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Sportcar.java" />
@@ -451,6 +482,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/io/PrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10755">
@@ -476,60 +518,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Car.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Vehicle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="104">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/AutoVehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
+            <element signature="method#accelerate#0;class#Vehicle#0" />
+            <element signature="e#1930#1931#0" expanded="true" />
+            <element signature="e#1980#1981#0" expanded="true" />
+            <element signature="e#1917#1918#0" expanded="true" />
+            <element signature="e#1944#1945#0" expanded="true" />
+            <element signature="e#1978#1979#0" expanded="true" />
+            <element signature="e#2008#2009#0" expanded="true" />
+            <element signature="e#2040#2041#0" expanded="true" />
+            <element signature="e#2068#2069#0" expanded="true" />
+            <element signature="e#2103#2104#0" expanded="true" />
+            <element signature="e#2134#2135#0" expanded="true" />
+            <element signature="e#2168#2169#0" expanded="true" />
+            <element signature="e#2198#2199#0" expanded="true" />
+            <element signature="e#2234#2235#0" expanded="true" />
+            <element signature="e#2266#2267#0" expanded="true" />
+            <element signature="e#2309#2310#0" expanded="true" />
+            <element signature="e#2348#2349#0" expanded="true" />
+            <element signature="e#2702#2703#0" expanded="true" />
+            <element signature="e#2740#2741#0" expanded="true" />
+            <element signature="e#2782#2783#0" expanded="true" />
+            <element signature="e#2816#2817#0" expanded="true" />
+            <element signature="e#2864#2865#0" expanded="true" />
+            <element signature="e#2904#2905#0" expanded="true" />
+            <element signature="e#2951#2952#0" expanded="true" />
+            <element signature="e#2989#2990#0" expanded="true" />
+            <element signature="e#3039#3040#0" expanded="true" />
+            <element signature="e#3081#3082#0" expanded="true" />
+            <element signature="e#3145#3146#0" expanded="true" />
+            <element signature="e#3201#3202#0" expanded="true" />
+            <element signature="e#3258#3259#0" expanded="true" />
+            <element signature="e#3304#3305#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
+        <state relative-caret-position="193">
+          <caret line="81" column="26" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Vehicle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/AutoVehicle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="240">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding>
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#1944#1945#0" expanded="true" />
-            <element signature="e#2008#2009#0" expanded="true" />
-            <element signature="e#2068#2069#0" expanded="true" />
-            <element signature="e#2134#2135#0" expanded="true" />
-            <element signature="e#2198#2199#0" expanded="true" />
-            <element signature="e#2266#2267#0" expanded="true" />
-            <element signature="e#2348#2349#0" expanded="true" />
-            <element signature="e#2440#2441#0" expanded="true" />
-            <element signature="e#2481#2482#0" expanded="true" />
-            <element signature="e#2740#2741#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2904#2905#0" expanded="true" />
-            <element signature="e#2989#2990#0" expanded="true" />
-            <element signature="e#3081#3082#0" expanded="true" />
-            <element signature="e#3201#3202#0" expanded="true" />
-            <element signature="e#3304#3305#0" expanded="true" />
-            <element signature="e#3316#3317#0" expanded="true" />
-            <element signature="e#3363#3364#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
           </folding>
         </state>
       </provider>

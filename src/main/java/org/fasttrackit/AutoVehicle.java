@@ -11,8 +11,9 @@ public class AutoVehicle extends Vehicle {
     public AutoVehicle(Engine engine){
         this.engine = engine;
     }
+//constructor overloading ca sa faca automat un new engine folosind construtoru de mai sus
+    public AutoVehicle() {
+        this(new Engine());
 
-
-
-
+    }
 }

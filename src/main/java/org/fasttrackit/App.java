@@ -76,6 +76,10 @@ public class App
 
         System.out.println( " **total car numbers: " + Vehicle.getTotalCount());
 
+        //acceleram cu method overloading (method overloading se poate folosi ca backwards compatibility)
+        car2.accelerate(20);
+
+        new AutoVehicle();
     }
 
 
