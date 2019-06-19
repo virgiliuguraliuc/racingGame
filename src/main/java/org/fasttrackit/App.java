@@ -80,7 +80,10 @@ public class App
         car2.accelerate(20);
 
         new AutoVehicle();
-    }
+
+        //new Car();
+
+        }
 
 
 

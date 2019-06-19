@@ -11,6 +11,11 @@ public class Car extends AutoVehicle{
         super(engine);
     }
 
+    public Car() {
+       // this(new Engine()); asa sau
+        //any constractor will try and call the "no-parameter" constrctor of the parent class
+    }
+
     // "has-a" relationship
 
 
