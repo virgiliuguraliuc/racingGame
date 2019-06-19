@@ -11,7 +11,15 @@ public class App
       //variabila de stocare a referintei obiectului Car
         //model de la securitate cu geamuri negre si faruri stinse :P
 
-        Car car = new Car();
+        //am dat motorul inainte de declararea masinii pentru ca noile obiecte car sa primesca motoare
+
+        Engine engine = new Engine();
+        engine.capacity = 100;
+        engine.manufacturer = "Motor Moscova";
+
+       //Car car = new Car(new engine())  - dar asa capacity si manufacturer = 0 si null ca default
+
+        Car car = new Car(engine);
         car.name = "Dacia";
         car.color = "black";
         car.doorCount = 4;
@@ -20,20 +28,16 @@ public class App
         car.running = true;
 
 
-        Engine engine1 = new Engine();
-                engine1.capacity = 100;
-                engine1.manufacturer = "Motor Moscova";
 
 
-
-        Car car2 = new Car();
+        Car car2 = new Car(new Engine());
         car2.name = "Lada";
         car2.color = "white";
         car2.doorCount = 4;
         car2.mileage = 12;
         car2.fuelLevel = 60;
         car2.running = false;
-        car2.engine = engine1;
+
 
         Car car3 = car;
 

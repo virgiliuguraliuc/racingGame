@@ -13,6 +13,7 @@ public class Vehicle {
     LocalDate createdDate;
 
 
+
     // daca public void nu trebuie sa dai return, pur si simplu face o chestie si nu returneaza ceva
 
     public double accelerate (double speed, double durationInHours) {
