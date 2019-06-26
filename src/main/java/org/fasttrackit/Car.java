@@ -19,5 +19,11 @@ public class Car extends AutoVehicle{
     // "has-a" relationship
 
 
+    public int getDoorCount() {
+        return doorCount;
+    }
 
+    public void setDoorCount(int doorCount) {
+        this.doorCount = doorCount;
+    }
 }
