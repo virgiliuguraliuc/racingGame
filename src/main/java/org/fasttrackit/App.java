@@ -46,7 +46,7 @@ public class App
 
         System.out.println("Changing values...");
 
-        car.setName("Dacia Locan");
+        car.setName("Dacia Logan");
 
         System.out.println(car.getName());
         System.out.println(car3.getName());
@@ -81,10 +81,25 @@ public class App
 
         new AutoVehicle();
 
+
+
         //new Car();
 
-        }
 
+        System.out.println(" Today ....26.06");
+        System.out.println(car);
+
+        BatMobile batMobile = new BatMobile();
+            batMobile.setName(" BatMan ");
+//acceleram cu metoda de acelerare suprascrisa (override)
+        batMobile.accelerate(60,1);
+        batMobile.accelerate(60);
+        car.accelerate(60,1);
+
+
+
+
+    }
 
 
 

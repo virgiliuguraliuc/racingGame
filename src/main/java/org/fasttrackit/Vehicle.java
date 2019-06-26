@@ -77,10 +77,18 @@ public class Vehicle {
     public double accelerate (double speed){
        return accelerate(speed, 1);
     }
-
-
+    //Methot signiture must be the same except:
+    // 1.co-variant return type
+    // 2.overriding method can allow larger acces than the overidden method
+    // 3.
+    //co-variant return type (e in examen) returned object must inherit what the ovveriden methot was returning
+    @Override
+   public  Vehicle clone() throws CloneNotSupportedException {
+        return new Vehicle();
+    }
 
     //getteri
+
     public String getName() {
         return name;
     }
@@ -160,6 +168,22 @@ public class Vehicle {
 
    private static void setTotalCount(int totalCount) {
         Vehicle.totalCount = totalCount;
+    }
+
+    //suprascriem functionalitatea metodei toString din clasa Object
+
+    @Override
+    public String toString() {
+        return "Vehicle{" +
+                "name='" + name + '\'' +
+                ", mileage=" + mileage +
+                ", color='" + color + '\'' +
+                ", maxSpeed=" + maxSpeed +
+                ", running=" + running +
+                ", fuelLevel=" + fuelLevel +
+                ", traveledDistance=" + traveledDistance +
+                ", createdDate=" + createdDate +
+                '}';
     }
 }
 
