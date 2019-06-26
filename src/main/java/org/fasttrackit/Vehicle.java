@@ -30,7 +30,7 @@ public class Vehicle {
     private LocalDate createdDate;
 
 
-//metode
+//metode//
 
 //ctrl+alt+o optimise imports
     // daca public void nu trebuie sa dai return, pur si simplu face o chestie si nu returneaza ceva
