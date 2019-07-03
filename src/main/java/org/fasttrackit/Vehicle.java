@@ -39,6 +39,15 @@ public class Vehicle {
 
 
     public double accelerate (double speed, double durationInHours) {
+      if( fuelLevel <= 0 ){
+          System.out.println(" You don't have enough fuel to accelerate. " + "Fuel level " + fuelLevel);
+          return 0;
+      }
+      if ( speed > maxSpeed) {
+          System.out.println( " Requested speeed is to high. Max speed is: " + maxSpeed);
+      }
+
+
         // concatenare a mesajelor
         System.out.println(name + " is accelering with " + speed + " km/h for " + durationInHours + "h." );
 
