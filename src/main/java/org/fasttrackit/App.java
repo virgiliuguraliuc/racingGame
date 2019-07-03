@@ -10,29 +10,29 @@ public class App
 {
     public static void main( String[] args )
     {
-   //      Game game = new Game();
-    //     game.start();
+      Game game = new Game();
+      game.start();
 
-        //string pool --read about
-        String a = "test";
-        String b = "test";
-        String c = new String("test");
-
-        System.out.println( a == b);
-        System.out.println( a == c);            // compar doar identitatea obiectelor / compara referintele aceluaiasi obiect
-        System.out.println(a.equals(c)); // asa verific daca obiectele desii diferite au proprietati identice
-
-        System.out.println("---------------");
-
-        Vehicle vehicle1 = new Vehicle();
-        vehicle1.setName("dacia");
-
-        Vehicle vehicle2 = new Vehicle();
-        vehicle2.setName(("dacia"));
-
-        System.out.println(vehicle1 == vehicle2);
-        System.out.println(vehicle1.equals(vehicle2)); //am override de equals in clasa vehicle
-
+//        //string pool --read about
+//        String a = "test";
+//        String b = "test";
+//        String c = new String("test");
+//
+//        System.out.println( a == b);
+//        System.out.println( a == c);            // compar doar identitatea obiectelor / compara referintele aceluaiasi obiect
+//        System.out.println(a.equals(c)); // asa verific daca obiectele desii diferite au proprietati identice
+//
+//        System.out.println("---------------");
+//
+//        Vehicle vehicle1 = new Vehicle();
+//        vehicle1.setName("dacia");
+//
+//        Vehicle vehicle2 = new Vehicle();
+//        vehicle2.setName(("dacia"));
+//
+//        System.out.println(vehicle1 == vehicle2);
+//        System.out.println(vehicle1.equals(vehicle2)); //am override de equals in clasa vehicle
+//
 
 
 
