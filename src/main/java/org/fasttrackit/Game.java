@@ -15,7 +15,7 @@ public class Game {
 
     //citeste despre Map se cere la interview-uri tehnice!!!
 
-    public void start() {
+    public void start() throws Exception {
         //aici ne punem toata logica jocului
         initialiseTracks();
         displayTracks();
@@ -36,17 +36,23 @@ public class Game {
 
 
     }
-
-    private int getCompetitorCountFromUser() {
+//citeste despre checked exceptiot si unchecked exception in java
+    //citeste si depre cum exceptiile de runtime nu pot if mai mari decat pe clasa de parinte,
+    private int getCompetitorCountFromUser() throws Exception {
         System.out.println(" Please enter Competitor count: ");
         Scanner scanner = new Scanner(System.in);
         try { //citeste despre try catch finaly
             return scanner.nextInt();
         } catch (InputMismatchException e) {
-            throw new RuntimeException("You entered an invalid value.");
+            throw new Exception("You entered an invalid value."); //am anuntat eroarea cu alt+enter si am adaugat la semnatura ca sa ii anunt pe ceilalti ca e posibil si tot mergem cu ea afara din joc
+        } finally { //finally block is always executed.
+            System.out.println("Read input from user");
         }
 
     }
+
+
+
 
     private void addCompetitor() {  //metoda de facut masini si adaugat in lista
         Vehicle vehicle = new Vehicle();

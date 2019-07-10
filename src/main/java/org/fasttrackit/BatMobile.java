@@ -1,7 +1,7 @@
 package org.fasttrackit;
 
 public class BatMobile extends Vehicle {
-
+//citeste despre co-variant return type
     @Override
     public double accelerate(double speed, double durationInHours) {
 // ^^ semnatura metodei , accesul poate fi public sau mai mare daca a fost declarat public la inceput
