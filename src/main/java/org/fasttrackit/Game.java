@@ -1,17 +1,51 @@
 package org.fasttrackit;
 
-public class Game {
-    private Vehicle competitor1;
-    private Vehicle Competitor2;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.ThreadLocalRandom;
+import java.text.DecimalFormat;
 
+public class Game {
+
+    DecimalFormat df2 = new DecimalFormat("#.##");
     private Track[] tracks = new Track[3];
+    private List<Vehicle> competitors = new ArrayList<>();
 
 
     public void start() {
         //aici ne punem toata logica jocului
         initialiseTracks();
         displayTracks();
+        int competitorCount = 2; //adaugam  cati competitori vrem
+        for (int i = 0; i < competitorCount; i++){
+            addCompetitor();
+        }
 
+        displayCompetitors();
+
+
+    }
+
+    private void addCompetitor() {  //metoda de facut masini si adaugat in lista
+        Vehicle vehicle = new Vehicle();
+        vehicle.setName("test");
+        vehicle.setFuelLevel(60);
+        vehicle.setMileage(ThreadLocalRandom.current().nextDouble(4.5, 20)); // ii cer un numar random intre parametrii astia
+        vehicle.setMaxSpeed(200); // ^^ ca sa nu ne afiseze toate zecimalele  research this || https://stackoverflow.com/questions/10959424/show-only-two-digit-after-decimal
+
+        competitors.add(vehicle);
+    }
+
+
+    //crtl+q deschide toolul java doc. care e un fel de man page
+    private void displayCompetitors() {
+        System.out.println("Todays competitors are:");
+        for (int i = 0; i < competitors.size(); i++) {
+            if (competitors.get(i) != null) {
+
+                System.out.println(competitors.get(i).getName() + " -mileage: " + df2.format(competitors.get(i).getMileage())); //am formatat sa imi arate doar 2 zecimale
+            }
+        }
 
     }
 
