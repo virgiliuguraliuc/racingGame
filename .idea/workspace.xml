@@ -4,7 +4,6 @@
     <list default="true" id="5937ef31-bf2f-4114-9b63-c8b94f7f3ace" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/fasttrackit/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/fasttrackit/App.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+            <state relative-caret-position="149">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -347,7 +346,7 @@
       <workItem from="1561561973671" duration="6979000" />
       <workItem from="1562167504524" duration="7925000" />
       <workItem from="1562179036715" duration="13000" />
-      <workItem from="1562772655441" duration="4953000" />
+      <workItem from="1562772655441" duration="7337000" />
     </task>
     <task id="LOCAL-00001" summary="learned classes, variables">
       <created>1559758631617</created>
@@ -454,7 +453,21 @@
       <option name="project" value="LOCAL" />
       <updated>1562174734115</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="studied lists, did some mumber formating">
+      <created>1562777713904</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1562777713904</updated>
+    </task>
+    <task id="LOCAL-00017" summary="getting input from user">
+      <created>1562778892158</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1562778892158</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -466,7 +479,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51266000" />
+    <option name="totallyTimeSpent" value="53650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="25" width="1325" height="743" extended-state="6" />
@@ -522,7 +535,9 @@
     <MESSAGE value="studied if else" />
     <MESSAGE value="studied object comparison" />
     <MESSAGE value="studied arrays and for loops" />
-    <option name="LAST_COMMIT_MESSAGE" value="studied arrays and for loops" />
+    <MESSAGE value="studied lists, did some mumber formating" />
+    <MESSAGE value="getting input from user" />
+    <option name="LAST_COMMIT_MESSAGE" value="getting input from user" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -701,8 +716,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        <state relative-caret-position="149">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
