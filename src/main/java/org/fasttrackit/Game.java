@@ -43,8 +43,9 @@ public class Game {
                     break;
                 }
 
-                if (competitor.getFuelLevel() <=0){ }
+                if (competitor.getFuelLevel() <= 0) {
                     competitorsWithoutFuel++;
+                }
             }
         }
 
