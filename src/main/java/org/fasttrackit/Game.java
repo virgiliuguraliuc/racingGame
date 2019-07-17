@@ -19,15 +19,57 @@ public class Game {
         //aici ne punem toata logica jocului
         initialiseTracks();
         displayTracks();
+        getTrackSelectedByUser();
+
+       Track selectedTrack = new Track();
+
         int competitorCount = getCompetitorCountFromUser(); //adaugam  cati competitori vrem
         for (int i = 0; i < competitorCount; i++) {
             addCompetitor();
         }
 
         displayCompetitors();
+        int competitorsWithoutFuel = 0;
+
+        boolean winnerNotKnown = true;
+
+        while (winnerNotKnown && competitorsWithoutFuel < competitors.size()) {
+            for (Vehicle competitor : competitors) {
+                competitor.accelerate(getSpeedFromUser());
+
+                if (competitor.getTraveledDistance() >= selectedTrack.getLenght()) {
+                    System.out.println(" Congrats! the winner is " + competitor.getName());
+                    winnerNotKnown = false;
+                    break;
+                }
+
+                if (competitor.getFuelLevel() <=0){ }
+
+            }
+        }
 
 
     }
+
+    private Track getTrackSelectedByUser () {
+        System.out.println("Please enter track number:");
+        try {
+
+            Scanner scanner = new Scanner(System.in);
+            int trackNumber = scanner.nextInt();
+
+            Track track = tracks[trackNumber - 1];
+            System.out.println("selected track: " + track.getName());
+            return track;
+        }catch ( InputMismatchException | ArrayIndexOutOfBoundsException e){
+            System.out.println("you entered an invalid track number please try again");
+
+
+            return getTrackSelectedByUser(); //recursion a method invoking itself
+        }
+
+    }
+
 
     private String getVehicleNameFromUser() {
         System.out.println(" Please enter vehicle name: ");
@@ -62,6 +104,7 @@ public class Game {
         vehicle.setMaxSpeed(200); // ^^ ca sa nu ne afiseze toate zecimalele  research this || https://stackoverflow.com/questions/10959424/show-only-two-digit-after-decimal
 
         competitors.add(vehicle);
+
     }
 
 
@@ -73,9 +116,12 @@ public class Game {
 
                 System.out.println(competitors.get(i).getName() + " - mileage: " + df2.format(competitors.get(i).getMileage())); //am formatat sa imi arate doar 2 zecimale
             }
+
         }
 
     }
+
+
 
 
     private void initialiseTracks() {
@@ -104,5 +150,15 @@ public class Game {
 
     }
 
+
+    private double getSpeedFromUser() {
+        System.out.println( "please enter speed");
+        Scanner scanner = new Scanner(System.in);
+        try {
+            return  scanner.nextDouble();
+        }catch (InputMismatchException e) {
+            System.out.println(" You have entered a invalid value");
+        }return getSpeedFromUser();
+    }
 
 }

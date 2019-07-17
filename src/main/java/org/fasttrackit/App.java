@@ -1,6 +1,8 @@
 package org.fasttrackit;
 
 import java.sql.SQLOutput;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Hello world!
@@ -9,6 +11,14 @@ import java.sql.SQLOutput;
 public class App 
 {
     public static void main( String[] args ) throws Exception {
+
+//        Map<String, Integer> students = new HashMap<>();  // more read about
+//        students.put("ion popescu ", 20);
+//        students.put("adela danilescu", 21);
+//        System.out.println(students);
+//
+//        System.out.println(students.get("ion popescu "));
+
       Game game = new Game();
       game.start();
 
